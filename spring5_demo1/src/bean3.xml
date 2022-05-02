@@ -3,12 +3,15 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="userService" class="com.study.spring5.service.UserService">
-        <!-- 注入userDao对象
-            name: 类里面属性名称
-            ref: 创建userDao对象bean标签id值
-         -->
-        <property name="userDao" ref="UserDao" />
+    <!-- 内部bean -->
+    <bean id="emp" class="com.study.spring5.bean.Emp">
+        <!-- 设置两个普通属性 -->
+        <property name="ename" value="lucy" />
+        <property name="gender" value="女" />
+        <property name="dept">
+            <bean id="dept" class="com.study.spring5.bean.Dept">
+                <property name="dname" value="保安部" />
+            </bean>
+        </property>
     </bean>
-    <bean id="UserDao" class="com.study.spring5.dao.UserDaoImpl"/>
 </beans>

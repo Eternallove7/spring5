@@ -1,4 +1,4 @@
-package com.study.spring5.testdemo;
+package com.study.spring5;
 
 /**
  * @author RenAshbell
@@ -17,5 +17,13 @@ public class Others {
     public Others(String oname, String address) {
         this.oname = oname;
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Others{" +
+                "oname='" + oname + '\'' +
+                ", address='" + address + '\'' +
+                '}';
     }
 }

@@ -8,10 +8,11 @@
         <!-- 设置两个普通属性 -->
         <property name="ename" value="lucy" />
         <property name="gender" value="女" />
-        <property name="dept">
-            <bean id="dept" class="com.study.spring5.bean.Dept">
-                <property name="dname" value="保安部" />
-            </bean>
-        </property>
+        <!-- 级联赋值 -->
+        <property name="dept" ref="dept" />
+        <property name="dept.dname" value="技术部" />
+    </bean>
+    <bean id="dept" class="com.study.spring5.bean.Dept">
+        <property name="dname" value="财务部" />
     </bean>
 </beans>
