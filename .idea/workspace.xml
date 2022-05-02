@@ -1,25 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="864c8e37-ae6d-4c1d-a5ae-1d6bd33a4afe" name="Changes" comment="" />
+    <list default="true" id="864c8e37-ae6d-4c1d-a5ae-1d6bd33a4afe" name="Changes" comment="基本数据类型和引用数据类型注入">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo3/spring5_demo3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo3/src/bean1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo3/src/com/study/spring5/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo3/src/com/study/spring5/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo3/src/com/study/spring5/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo3/src/com/study/spring5/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5_demo3/src/com/study/spring5/testDemo/TestSpring5Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="28YUdvtxXzr7zb6zlBxbZqSM0Tl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/spring5/spring5_demo3/spring5_demo3.iml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\spring5" />
+      <recent name="G:\spring5\spring5_demo2\src" />
+      <recent name="G:\spring5\spring5_demo1\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.study.spring5" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestSpring5Demo1.test2 (1)">
+    <configuration name="TestSpring5Demo1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.spring5.testDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.spring5.testDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.study.spring5.testDemo.TestSpring5Demo1" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5Demo1.test2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.spring5.testDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.spring5.testDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.study.spring5.testDemo.TestSpring5Demo1" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5Demo1.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.study.spring5.testdemo.TestSpring5Demo1" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5Demo1.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.study.spring5.testdemo.TestSpring5Demo1" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5Demo1.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.study.spring5.testdemo.TestSpring5Demo1" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestSpring5Demo1.test2 (1)" />
+        <item itemvalue="JUnit.TestSpring5Demo1.test1" />
+        <item itemvalue="JUnit.TestSpring5Demo1.test5" />
+        <item itemvalue="JUnit.TestSpring5Demo1.test4" />
+        <item itemvalue="JUnit.TestSpring5Demo1.test3" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,9 +182,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651393108298</updated>
-      <workItem from="1651393110621" duration="1000" />
+      <workItem from="1651393110621" duration="10655000" />
+      <workItem from="1651473111647" duration="12389000" />
+      <workItem from="1651496082841" duration="676000" />
     </task>
+    <task id="LOCAL-00001" summary="-注入属性数组,集合-bean声明周期-自动装配-连接池">
+      <created>1651496033214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651496033214</updated>
+    </task>
+    <task id="LOCAL-00002" summary="基本数据类型和引用数据类型注入">
+      <created>1651496380087</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651496380088</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -42,5 +216,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-注入属性数组,集合-bean声明周期-自动装配-连接池" />
+    <MESSAGE value="基本数据类型和引用数据类型注入" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本数据类型和引用数据类型注入" />
   </component>
 </project>
