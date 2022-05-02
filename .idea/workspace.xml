@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="864c8e37-ae6d-4c1d-a5ae-1d6bd33a4afe" name="Changes" comment="基本数据类型和引用数据类型注入">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring5_demo3/spring5_demo3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring5_demo3/src/bean1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring5_demo3/src/com/study/spring5/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring5_demo3/src/com/study/spring5/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring5_demo3/src/com/study/spring5/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring5_demo3/src/com/study/spring5/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring5_demo3/src/com/study/spring5/testDemo/TestSpring5Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5.iml" afterDir="false" />
-    </list>
+    <list default="true" id="864c8e37-ae6d-4c1d-a5ae-1d6bd33a4afe" name="Changes" comment="day02" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +172,7 @@
       <updated>1651393108298</updated>
       <workItem from="1651393110621" duration="10655000" />
       <workItem from="1651473111647" duration="12389000" />
-      <workItem from="1651496082841" duration="676000" />
+      <workItem from="1651496082841" duration="979000" />
     </task>
     <task id="LOCAL-00001" summary="-注入属性数组,集合-bean声明周期-自动装配-连接池">
       <created>1651496033214</created>
@@ -200,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651496380088</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="使用注解开发与完全注解开发">
+      <created>1651496808291</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651496808291</updated>
+    </task>
+    <task id="LOCAL-00004" summary="day02">
+      <created>1651496832409</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651496832409</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +222,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-注入属性数组,集合-bean声明周期-自动装配-连接池" />
     <MESSAGE value="基本数据类型和引用数据类型注入" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本数据类型和引用数据类型注入" />
+    <MESSAGE value="使用注解开发与完全注解开发" />
+    <MESSAGE value="day02" />
+    <option name="LAST_COMMIT_MESSAGE" value="day02" />
   </component>
 </project>
