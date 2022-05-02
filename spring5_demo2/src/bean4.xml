@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="orders" class="com.study.spring5.bean.Orders" init-method="initMethod" destroy-method="destroyMethod">
+        <property name="oname" value="手机"/>
+    </bean>
+
+    <!--配置后置处理器-->
+    <!--配置后会自动在所有bean生命周期中调用myBeanPost里的方法-->
+    <bean id="myBeanPost" class="com.study.spring5.bean.MyBeanPost"/>
+
+</beans>
